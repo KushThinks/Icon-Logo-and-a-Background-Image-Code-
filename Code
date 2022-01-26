@@ -1,0 +1,15 @@
+from tkinter import*
+from PIL import ImageTk,Image #Right_Click_to_Install_Pil_or_Pillow
+a = Tk()
+theLabel = Label(a, text="New York Times", bg="lightgray", fg="grey", border=50, font='times 18 italic underline bold')
+a.configure(background='white')
+a.geometry("300x200+200+250")
+theLabel.pack()
+a.iconbitmap('') #add_logo_location_in_ico_format
+canvas=Canvas(a, width=1050, height=1000)
+image=ImageTk.PhotoImage(Image.open() #add_background_image_location_in_jpg_format
+canvas.create_image(0,0,anchor=NW,image=image)
+canvas.pack()
+a.title("The New York Times")
+a.mainloop()
+a
