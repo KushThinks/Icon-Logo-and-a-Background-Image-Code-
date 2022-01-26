@@ -1,0 +1,6 @@
+You would have to add your own image of logo in ico format 
+and background image in jpg format as shown in the video.
+Also you have to download Pillow where it is written 
+"from PIL import ImageTk,Image"-Right click to download PIL,
+you would see two options, "PIL" and "Pillow" one of them will
+give an error but it is ok, proceed with the other one
